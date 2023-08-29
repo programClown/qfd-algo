@@ -30,3 +30,6 @@ go.work
 .env
 resource.syso
 .DS_Store
+
+package-lock.json
+package.json.md5
