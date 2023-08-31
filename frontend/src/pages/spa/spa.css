@@ -1,0 +1,18 @@
+.display-flex {
+    display: flex;
+    min-height: 80vh;
+}
+
+.div-left {
+    border: 1px solid red;
+    width: 50vw;
+}
+
+.div-right {
+    border: 1px solid blue;
+    width: 50vw;
+}
+
+.spa-table-left {
+    margin: 10px;
+}
