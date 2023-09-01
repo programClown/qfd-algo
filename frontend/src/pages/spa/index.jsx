@@ -14,8 +14,8 @@ function SPA() {
         <div className="display-flex">
             <div className="div-left">
                 <Table
-                    columns={spaTableStore.columns}
-                    dataSource={spaTableStore.data}
+                    columns={spaTableStore.inputColumns}
+                    dataSource={spaTableStore.inputDatas}
                     bordered
                     size="middle"
                     pagination={false}
@@ -25,7 +25,18 @@ function SPA() {
                 />
             </div>
 
-            <div className="div-right"></div>
+            <div className="div-right">
+                <Table
+                    columns={spaTableStore.resultColumns}
+                    dataSource={spaTableStore.resultData}
+                    bordered
+                    size="middle"
+                    pagination={false}
+                    scroll={{
+                        x: 'calc(100px + 50%)',
+                    }}
+                />
+            </div>
         </div>
     )
 }

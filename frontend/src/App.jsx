@@ -5,6 +5,7 @@ import { Tabs } from 'antd'
 import SPA from './pages/spa'
 import PCA from './pages/pca'
 import MEA from './pages/mea'
+import ProShow from './ProShow'
 
 const alogos = [
     { id: 'SPA', name: '集对法' },

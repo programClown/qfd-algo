@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.2.5",
+    "@ant-design/pro-components": "^2.6.16",
+    "@emotion/css": "^11.11.2",
     "antd": "^5.8.5",
     "mobx": "^6.10.0",
     "mobx-react-lite": "^4.0.4",

@@ -4,13 +4,15 @@
 }
 
 .div-left {
-    border: 1px solid red;
+    border: none;
     width: 50vw;
+    margin-right: 10px;
 }
 
 .div-right {
-    border: 1px solid blue;
+    border: none;
     width: 50vw;
+    margin-left: 10px;
 }
 
 .spa-table-left {
